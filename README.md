@@ -22,19 +22,19 @@ Sign in to GitHub and create a new **public** repository.
 For the shortest address, name the repository:
 
 ```text
-YOUR-GITHUB-USERNAME.github.io
+anurag-bajpai.github.io
 ```
 
 The website address will then be:
 
 ```text
-https://YOUR-GITHUB-USERNAME.github.io/
+https://anurag-bajpai.github.io/
 ```
 
 A normal repository name such as `academic-website` also works. Its address will be:
 
 ```text
-https://YOUR-GITHUB-USERNAME.github.io/academic-website/
+https://anurag-bajpai.github.io/academic-website/
 ```
 
 ### 2. Upload the files
