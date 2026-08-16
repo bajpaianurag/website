@@ -209,25 +209,6 @@
             </article>`).join("")}
         </div>
       </section>
-      <section class="section section-muted">
-        <div class="container">
-          <div class="section-heading split-heading">
-            <div>
-              <p class="eyebrow">Methodological framework</p>
-              <h2>From data to experimentally testable decisions</h2>
-            </div>
-            <p>Each project is framed around a physical question and a validation strategy.</p>
-          </div>
-          <div class="workflow">
-            ${[
-              ["1", "Scientific premise", "Define the material mechanism, process limitation and testable hypothesis."],
-              ["2", "Data and descriptors", "Construct composition, thermodynamic, process and microstructural representations."],
-              ["3", "Interpretable learning", "Use physics-informed, uncertainty-aware and causal models where scientifically justified."],
-              ["4", "Experimental closure", "Validate predicted materials or process windows and revise the mechanistic model."]
-            ].map(([n,t,d]) => `<div class="workflow-step"><span>${n}</span><h3>${t}</h3><p>${d}</p></div>`).join("")}
-          </div>
-        </div>
-      </section>
     `;
   }
 
