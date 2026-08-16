@@ -165,15 +165,6 @@ window.SITE_DATA = {
     },
     {
       year: 2026,
-      title: "Compositional complexity buffers free-volume sensitivity and serrated flow in metallic glasses",
-      authors: "Anurag Bajpai, Jaemin Wang, Dierk Raabe",
-      journal: "npj Computational Materials",
-      volume: "12",
-      doi: "10.1038/s41524-025-01933-7",
-      topic: "Metallic glasses"
-    },
-    {
-      year: 2026,
       title: "Deformation zone connectivity governs time-dependent load relaxation in Cu–Zr-based metallic glasses",
       authors: "Anurag Bajpai, Jaemin Wang, Dierk Raabe",
       journal: "Computational Materials Science",
@@ -190,6 +181,15 @@ window.SITE_DATA = {
       volume: "1055",
       doi: "10.1016/j.jallcom.2026.186380",
       topic: "Complex alloys"
+    },
+    {
+      year: 2026,
+      title: "Compositional complexity buffers free-volume sensitivity and serrated flow in metallic glasses",
+      authors: "Anurag Bajpai, Jaemin Wang, Dierk Raabe",
+      journal: "npj Computational Materials",
+      volume: "12",
+      doi: "10.1038/s41524-025-01933-7",
+      topic: "Metallic glasses"
     },
     {
       year: 2025,
