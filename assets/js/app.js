@@ -263,11 +263,10 @@
           </div>
           <div class="contact-actions">
             <a class="button primary" href="mailto:${p.email}">Send email ${icons.arrow}</a>
-            <a class="button secondary" href="assets/docs/Anurag_Bajpai_CV.pdf" target="_blank" rel="noopener">Curriculum vitae ${icons.download}</a>
           </div>
           <div class="external-profiles">
             <a href="${p.website}" target="_blank" rel="noopener">Academic profile ${icons.external}</a>
-            <a href="${p.shortLink}" target="_blank" rel="noopener">Professional profile ${icons.external}</a>
+            <a href="${p.shortLink}" target="_blank" rel="noopener">Google Scholar profile ${icons.external}</a>
           </div>
         </div>
         <form class="contact-form" id="contact-form">
