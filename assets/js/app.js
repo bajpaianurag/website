@@ -105,7 +105,7 @@
           <div>
             <div class="section-heading">
               <p class="eyebrow">Education</p>
-              <h2>Educational Timeline</h2>
+              <h2>Educational Background</h2>
             </div>
             ${data.education.map((item) =>
               timelineItem(item.period, item.degree, item.institution, item.detail)
