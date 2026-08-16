@@ -431,8 +431,7 @@ window.SITE_DATA = {
     ],
     video: {
       id: "EG6TuhjslFY",
-      title: "Featured research video",
-      text: "A selected video related to my research and academic activities."
+      title: "Talk given on "Machine Learning in Materials Science" under Materials Advantage at IIT Kanpur",
     }
   },
 
