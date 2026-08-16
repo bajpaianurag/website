@@ -7,17 +7,16 @@ window.SITE_DATA = {
     location: "Düsseldorf, Germany",
     email: "a.bajpai@mpi-susmat.de",
     phone: "+49-15510851063",
-    website: "https://sites.google.com/view/dranuragbajpai",
     shortLink: "https://tinyurl.com/anuragbajpai",
-    summary: "Materials scientist working at the interface of physical metallurgy, autonomous materials design and sustainable metallurgy. My research combines thermodynamic reasoning, process–microstructure–property relationships, experimental validation and physics-informed machine learning to design bulk metallic systems and resource-efficient metallurgical processes.",
+    summary: "Materials scientist working at the interface of physical metallurgy, autonomous materials design and sustainable metallurgy. My research combines thermodynamic reasoning, process–microstructure–property relationships, experimental metallurgy and physics-informed machine learning to design bulk metallic systems and resource-efficient metallurgical processes.",
     mission: "To develop scientifically interpretable and experimentally grounded materials-design workflows that connect composition, processing, microstructure and performance."
   },
 
   stats: [
     { value: "22", label: "Peer-reviewed journal publications" },
-    { value: "1", label: "Research monograph" },
-    { value: "1", label: "Published patent application" },
-    { value: "6", label: "Current group researchers coordinated" }
+    { value: "1", label: "Books" },
+    { value: "1", label: "Published patent applications" },
+    { value: "5", label: "Current group researchers coordinated" }
   ],
 
   expertise: [
@@ -75,16 +74,22 @@ window.SITE_DATA = {
 
   experience: [
     {
-      period: "June 2024–present",
+      period: "October 2024–present",
       role: "Group Leader, Artificial Intelligence for Materials Science",
       organization: "Max Planck Institute for Sustainable Materials, Germany",
-      detail: "Alexander von Humboldt Postdoctoral Fellow; scientific host: Prof. Dierk Raabe. Leads research in physics-informed and uncertainty-aware machine learning for autonomous materials design and coordinates interdisciplinary computational–experimental workflows."
+      detail: "Leads research in physics-informed and uncertainty-aware machine learning for autonomous materials design and coordinates interdisciplinary computational–experimental workflows."
+    },
+    {
+      period: "June 2024–May 2026",
+      role: "Alexander von Humboldt Postdoctoral Fellow",
+      organization: "Max Planck Institute for Sustainable Materials, Germany",
+      detail: "Scientific host: Prof. Dierk Raabe. Developed interpretable machine-learning models for hydrogen reduction, multicomponent metallic glasses and sustainable alloy discovery."
     },
     {
       period: "March 2023–May 2024",
       role: "Max Planck Gesellschaft Postdoctoral Fellow",
       organization: "Max Planck Institute for Iron Research, Germany",
-      detail: "Developed interpretable machine-learning models for hydrogen reduction, multicomponent metallic glasses and sustainable alloy discovery."
+      detail: "Scientific host: Prof. Dierk Raabe. Developed interpretable machine-learning models for hydrogen reduction, multicomponent metallic glasses and sustainable alloy discovery."
     },
     {
       period: "September 2015–October 2016",
@@ -96,7 +101,7 @@ window.SITE_DATA = {
 
   education: [
     {
-      period: "2017–2023",
+      period: "December 2016–February 2023",
       degree: "M.Tech–PhD Dual Degree, Materials Science and Engineering",
       institution: "Indian Institute of Technology Kanpur",
       detail: "PhD: Compositional Design, Thermal Stability and Mechanical Behavior of Multicomponent Metallic Glasses. M.Tech: Utilization of Electronic Waste as Precursors in Advanced Technologies."
