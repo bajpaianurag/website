@@ -1,0 +1,11 @@
+{
+  "name": "Dr. Anurag Bajpai — Academic Website",
+  "short_name": "Anurag Bajpai",
+  "start_url": "./#home",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8f1d24",
+  "icons": [
+    { "src": "assets/images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
