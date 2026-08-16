@@ -400,7 +400,7 @@ window.SITE_DATA = {
         source: "Anurag Bajpai",
         label: "Research publication: Advanced Science",
         title: "Physics-constrained constitutive learning of rate-limiting timescales for efficient hydrogen-based direct reduction for green steelmaking",
-        url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_hydrogen-reduction-ironmaking-activity-7457136497150803968-yoKy?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdBDSoBd6jjjcfx4oVR-WmXDFwAx8uVbSE"
+        url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_hydrogen-reduction-ironmaking-activity-7457136497150803968-yoKy"
       }
       {
         source: "Anurag Bajpai",
@@ -412,7 +412,7 @@ window.SITE_DATA = {
         source: "Anurag Bajpai",
         label: "Research publication: npj Computational Materials",
         title: "Compositional complexity buffers free-volume sensitivity and serrated flow in metallic glasses",
-        url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_compositional-complexity-buffers-free-volume-activity-7420921711463792640-iyOV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdBDSoBd6jjjcfx4oVR-WmXDFwAx8uVbSE"
+        url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_compositional-complexity-buffers-free-volume-activity-7420921711463792640-iyOV"
       }
     ],
     featuredPosts: [
@@ -421,7 +421,7 @@ window.SITE_DATA = {
         label: "Research highlight",
         title: "Editor's Choice Article",
         text: "The journal highlights research on effect of deformation zone connectivity on load realaxation behavior in metaliic glasses.",
-        url: "https://www.linkedin.com/posts/computational-materials-science_metallicglasses-moleculardynamics-computationalmaterialsscience-activity-7490486913393647616-fuED?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdBDSoBd6jjjcfx4oVR-WmXDFwAx8uVbSE"
+        url: "https://www.linkedin.com/posts/computational-materials-science_metallicglasses-moleculardynamics-computationalmaterialsscience-activity-7490486913393647616-fuED"
       },
       {
         source: "Max Planck Institute for Sustainable Materials",
