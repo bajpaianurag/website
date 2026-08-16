@@ -288,7 +288,7 @@
             <a class="button primary" href="mailto:${p.email}">Send email ${icons.arrow}</a>
           </div>
           <div class="external-profiles">
-            ${p.website ? `<a href="${p.website}" target="_blank" rel="noopener">Academic profile ${icons.external}</a>` : ""}
+            ${p.website ? `<a href="${p.website}" target="_blank" rel="noopener">MPI-SusMat profile ${icons.external}</a>` : ""}
             <a href="${p.shortLink}" target="_blank" rel="noopener">Google Scholar profile ${icons.external}</a>
           </div>
         </div>
