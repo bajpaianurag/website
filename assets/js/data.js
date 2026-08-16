@@ -386,27 +386,43 @@ window.SITE_DATA = {
     ownPosts: [
       {
         source: "Anurag Bajpai",
-        label: "Research publication",
+        label: "Research publication: Nature Communications",
         title: "AI-guided discovery of exceptionally hard multicomponent bulk metallic glasses",
-        text: "A research update on the VIBANN framework, experimental validation and the physical origins of exceptional hardness in the discovered alloys.",
         url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_materials-property-artificial-activity-7460184226286690304-h6Ci"
       },
       {
         source: "Anurag Bajpai",
-        label: "Research publication",
+        label: "Research publication: Acta Materialia",
         title: "Structural relaxation and compositional complexity in Cu–Zr-based metallic glasses",
-        text: "An overview of the Acta Materialia study connecting alloy chemistry, annealing, atomic structure and the deformation landscape of metallic glasses.",
         url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_coupled-influence-of-structural-relaxation-activity-7465088313419284481-qgVe"
       },
       {
         source: "Anurag Bajpai",
-        label: "Research publication",
+        label: "Research publication: Advanced Science",
+        title: "Physics-constrained constitutive learning of rate-limiting timescales for efficient hydrogen-based direct reduction for green steelmaking",
+        url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_hydrogen-reduction-ironmaking-activity-7457136497150803968-yoKy?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdBDSoBd6jjjcfx4oVR-WmXDFwAx8uVbSE"
+      }
+      {
+        source: "Anurag Bajpai",
+        label: "Research publication: Computational Materials Science",
         title: "Deformation-zone connectivity governs time-dependent load relaxation",
-        text: "A summary of large-scale molecular-dynamics results showing how connected subsurface plastic activity controls relaxation in Cu–Zr-based metallic glasses.",
         url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_materialsscience-metallicglasses-moleculardynamics-activity-7451210245336403968-jd1c"
+      }
+      {
+        source: "Anurag Bajpai",
+        label: "Research publication: npj Computational Materials",
+        title: "Compositional complexity buffers free-volume sensitivity and serrated flow in metallic glasses",
+        url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_compositional-complexity-buffers-free-volume-activity-7420921711463792640-iyOV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdBDSoBd6jjjcfx4oVR-WmXDFwAx8uVbSE"
       }
     ],
     featuredPosts: [
+      {
+        source: "Computational Materials Science",
+        label: "Research highlight",
+        title: "Editor's Choice Article",
+        text: "The journal highlights research on effect of deformation zone connectivity on load realaxation behavior in metaliic glasses.",
+        url: "https://www.linkedin.com/posts/computational-materials-science_metallicglasses-moleculardynamics-computationalmaterialsscience-activity-7490486913393647616-fuED?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdBDSoBd6jjjcfx4oVR-WmXDFwAx8uVbSE"
+      },
       {
         source: "Max Planck Institute for Sustainable Materials",
         label: "Research highlight",
@@ -431,8 +447,7 @@ window.SITE_DATA = {
     ],
     video: {
       id: "EG6TuhjslFY",
-      title: "Featured research video",
-      text: "A selected video related to my research and academic activities."
+      title: "Invited talk on 'Machine Learning in Materials Science' delivered under Materials Advantage at IIT Kanpur",
     }
   },
 
