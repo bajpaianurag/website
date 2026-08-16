@@ -104,7 +104,7 @@
 
   function researchPage() {
     return `
-      ${pageHeader("Research", "Mechanism-led materials design")}
+      ${pageHeader("Research", "Mechanism-driven materials design")}
       <section class="section container">
         <div class="research-stack">
           ${data.researchThemes.map((theme, index) => `
