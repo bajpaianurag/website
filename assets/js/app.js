@@ -177,7 +177,7 @@
     const topics = [...new Set(data.publications.map((pub) => pub.topic))].sort();
     const years = [...new Set(data.publications.map((pub) => pub.year))].sort((a, b) => b - a);
     return `
-      ${pageHeader("Publications", "Research output", "Peer-reviewed work spanning autonomous materials design, metallic-glass physics, compositionally complex alloys, hydrogen metallurgy and circular materials processing.")}
+      ${pageHeader("Publications", "Research output", "Peer-reviewed work spanning autonomous materials design, metallic-glass physics, compositionally complex alloys, green metallurgy and circular materials processing.")}
       <section class="section container publication-section">
         <div class="publication-toolbar" aria-label="Publication filters">
           <label class="search-field">
