@@ -142,7 +142,7 @@ window.SITE_DATA = {
       volume: "17",
       doi: "10.1038/s41467-026-73008-0",
       topic: "AI & alloy design",
-      highlight: "Nature Communications Editors’ Highlights — Materials science and chemistry"
+      highlight: "Nature Communications 2026 Editors’ Highlights — Materials science and chemistry"
     },
     {
       year: 2026,
@@ -179,7 +179,7 @@ window.SITE_DATA = {
       volume: "269",
       doi: "10.1016/j.commatsci.2026.114716",
       topic: "Metallic glasses",
-      highlight: "Editor’s Choice Article of the Month, April 2026"
+      highlight: "Editor’s Choice Article for April 2026"
     },
     {
       year: 2026,
