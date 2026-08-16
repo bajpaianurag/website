@@ -401,13 +401,13 @@ window.SITE_DATA = {
         label: "Research publication: Advanced Science",
         title: "Physics-constrained constitutive learning of rate-limiting timescales for efficient hydrogen-based direct reduction for green steelmaking",
         url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_hydrogen-reduction-ironmaking-activity-7457136497150803968-yoKy"
-      }
+      },
       {
         source: "Anurag Bajpai",
         label: "Research publication: Computational Materials Science",
         title: "Deformation-zone connectivity governs time-dependent load relaxation",
         url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_materialsscience-metallicglasses-moleculardynamics-activity-7451210245336403968-jd1c"
-      }
+      },
       {
         source: "Anurag Bajpai",
         label: "Research publication: npj Computational Materials",
@@ -447,7 +447,8 @@ window.SITE_DATA = {
     ],
     video: {
       id: "EG6TuhjslFY",
-      title: "Invited talk on 'Machine Learning in Materials Science' delivered under Materials Advantage at IIT Kanpur",
+      title: "Invited talk on ‘Machine Learning in Materials Science’ delivered under Materials Advantage at IIT Kanpur",
+      text: "An invited lecture discussing the role of machine learning in materials discovery, alloy design and structure–property modelling."
     }
   },
 
