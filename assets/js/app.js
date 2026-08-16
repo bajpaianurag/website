@@ -9,7 +9,6 @@
 
   const icons = {
     arrow: `<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>`,
-    download: `<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14"/></svg>`,
     external: `<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 5h5v5M10 14 19 5M19 13v6H5V5h6"/></svg>`,
     mail: `<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg>`,
     phone: `<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3h3l2 5-2 2a16 16 0 0 0 4 4l2-2 5 2v3c0 2-2 4-4 4C9 20 4 15 3 7c0-2 2-4 4-4Z"/></svg>`,
@@ -52,30 +51,34 @@
     return `
       <section class="home-intro">
         <div class="container home-intro-inner">
-          <div class="home-top-grid">
-            <div class="home-photo-wrap reveal">
-              <img
-                class="home-photo"
-                src="assets/images/anurag-bajpai.jpg"
-                alt="Photograph of Dr. Anurag Bajpai"
-              />
+          <div class="home-profile-grid">
+            <div class="home-copy">
+              <header class="home-identity reveal">
+                <h1>${p.name}</h1>
+                <p class="home-role">${p.title}</p>
+                <p class="home-fellowship">${p.fellowship}</p>
+                <p class="home-institution">${p.institution}, ${p.location}</p>
+              </header>
+
+              <div class="home-bio reveal">
+                <h2>Academic Profile</h2>
+                <p>${p.summary}</p>
+              </div>
             </div>
-  
-            <div class="home-identity reveal">
-              <h1>${p.name}</h1>
-              <p class="home-role">${p.title}</p>
-              <p class="home-fellowship">${p.fellowship}</p>
-              <p class="home-institution">${p.institution}, ${p.location}</p>
-            </div>
-          </div>
-  
-          <div class="home-bio reveal">
-            <h2>Academic Profile</h2>
-            <p>${p.summary}</p>
+
+            <aside class="home-photo-panel reveal" aria-label="Portrait of ${p.name}">
+              <div class="home-photo-frame">
+                <img
+                  class="home-photo"
+                  src="assets/images/anurag-bajpai.jpg"
+                  alt="Photograph of ${p.name}"
+                />
+              </div>
+            </aside>
           </div>
         </div>
       </section>
-  
+
       <section class="stats-strip" aria-label="Profile metrics">
         <div class="container stats-grid">
           ${data.stats.map((item) => `
@@ -86,7 +89,7 @@
           `).join("")}
         </div>
       </section>
-  
+
       <section class="section section-muted">
         <div class="container timeline-grid">
           <div>
@@ -98,7 +101,7 @@
               timelineItem(item.period, item.role, item.organization, item.detail)
             ).join("")}
           </div>
-  
+
           <div>
             <div class="section-heading">
               <p class="eyebrow">Education</p>
@@ -285,7 +288,7 @@
             <a class="button primary" href="mailto:${p.email}">Send email ${icons.arrow}</a>
           </div>
           <div class="external-profiles">
-            <a href="${p.website}" target="_blank" rel="noopener">Academic profile ${icons.external}</a>
+            ${p.website ? `<a href="${p.website}" target="_blank" rel="noopener">Academic profile ${icons.external}</a>` : ""}
             <a href="${p.shortLink}" target="_blank" rel="noopener">Google Scholar profile ${icons.external}</a>
           </div>
         </div>
