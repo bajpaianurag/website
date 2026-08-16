@@ -52,41 +52,61 @@
     return `
       <section class="home-intro">
         <div class="container home-intro-inner">
-          <header class="home-identity reveal">
-            <h1>${p.name}</h1>
-            <p class="home-role">${p.title}</p>
-            <p class="home-fellowship">${p.fellowship}</p>
-            <p class="home-institution">${p.institution}, ${p.location}</p>
-          </header>
-
+          <div class="home-top-grid">
+            <div class="home-photo-wrap reveal">
+              <img
+                class="home-photo"
+                src="assets/images/anurag-bajpai.jpg"
+                alt="Photograph of Dr. Anurag Bajpai"
+              />
+            </div>
+  
+            <div class="home-identity reveal">
+              <h1>${p.name}</h1>
+              <p class="home-role">${p.title}</p>
+              <p class="home-fellowship">${p.fellowship}</p>
+              <p class="home-institution">${p.institution}, ${p.location}</p>
+            </div>
+          </div>
+  
           <div class="home-bio reveal">
             <h2>Academic Profile</h2>
             <p>${p.summary}</p>
           </div>
         </div>
       </section>
-
-      <section class="stats-strip" aria-label="Academic profile metrics">
+  
+      <section class="stats-strip" aria-label="Profile metrics">
         <div class="container stats-grid">
-          ${data.stats.map((item) => `<div class="stat"><strong>${item.value}</strong><span>${item.label}</span></div>`).join("")}
+          ${data.stats.map((item) => `
+            <div class="stat">
+              <strong>${item.value}</strong>
+              <span>${item.label}</span>
+            </div>
+          `).join("")}
         </div>
       </section>
-
-      <section class="section section-dark">
-        <div class="container">
-          <div class="section-heading light">
-            <p class="eyebrow">Academic trajectory</p>
-            <h2>Professional experience and education</h2>
+  
+      <section class="section section-muted">
+        <div class="container timeline-grid">
+          <div>
+            <div class="section-heading">
+              <p class="eyebrow">Career</p>
+              <h2>Professional Experience</h2>
+            </div>
+            ${data.experience.map((item) =>
+              timelineItem(item.period, item.role, item.organization, item.detail)
+            ).join("")}
           </div>
-          <div class="timeline-grid">
-            <div>
-              <h3 class="timeline-title">Professional experience</h3>
-              ${data.experience.map((item) => timelineItem(item.period, item.role, item.organization, item.detail)).join("")}
+  
+          <div>
+            <div class="section-heading">
+              <p class="eyebrow">Education</p>
+              <h2>Educational Timeline</h2>
             </div>
-            <div>
-              <h3 class="timeline-title">Education</h3>
-              ${data.education.map((item) => timelineItem(item.period, item.degree, item.institution, item.detail)).join("")}
-            </div>
+            ${data.education.map((item) =>
+              timelineItem(item.period, item.degree, item.institution, item.detail)
+            ).join("")}
           </div>
         </div>
       </section>
