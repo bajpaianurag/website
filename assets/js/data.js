@@ -45,7 +45,7 @@ window.SITE_DATA = {
       title: "Scrap-tolerant alloys and circular metallurgy",
       subtitle: "Designing structural metals for impurity-rich feedstocks",
       text: "Active-learning and thermodynamics-informed workflows are used to identify alloying strategies compatible with elevated residual impurity contents. Particular emphasis is placed on connecting scrap chemistry to phase stability, microstructure evolution and mechanical performance.",
-      methods: ["CALPHAD-informed modelling", "Microstructure segmentation", "Feature extraction", "Property optimization", "atomistic simulations"],
+      methods: ["CALPHAD-informed modelling", "Microstructure segmentation", "Feature extraction", "Property optimization", "Atomistic Simulations"],
       systems: ["High-Cu-tolerant steels", "Recycled aluminium alloys", "Impurity-tolerant structural metals"]
     },
     {
