@@ -165,7 +165,7 @@ svg { width: 1.05em; height: 1.05em; fill: none; stroke: currentColor; stroke-wi
 .research-meta-grid h3 { margin: 0 0 10px; font-size: .78rem; text-transform: uppercase; letter-spacing: .11em; }
 .research-meta-grid ul { margin: 0; padding: 0; list-style: none; }
 .research-meta-grid li { padding: 5px 0; color: var(--muted); font-size: .91rem; }
-.research-meta-grid li::before { content: "â€”"; margin-right: 8px; color: var(--accent); }
+.research-meta-grid li::before { content: "\2014"; margin-right: 8px; color: var(--accent); }
 .research-graphic { position: relative; min-height: 300px; border-radius: 14px; overflow: hidden; background: var(--dark); }
 .research-graphic span { position: absolute; border-radius: 50%; }
 .graphic-1 { background: linear-gradient(140deg, #1b1e23, #56242a); }
