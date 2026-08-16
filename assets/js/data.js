@@ -36,7 +36,7 @@ window.SITE_DATA = {
       title: "Autonomous materials design",
       subtitle: "Physics-informed and uncertainty-aware learning",
       text: "Development of machine-learning frameworks that embed thermodynamic, mechanistic and microstructural constraints into alloy and process design. The objective is not only prediction, but experimentally actionable decision-making with transparent uncertainty and physically interpretable descriptors.",
-      methods: ["Physics-informed machine learning", "Active learning", "Generative modelling", "Uncertainty quantification", "Symbolic regression"],
+      methods: ["Physics-informed machine learning", "Active learning", "Causal inference", "Generative modelling", "Uncertainty quantification"],
       systems: ["Multicomponent metallic glasses", "Sustainable structural alloys", "Hydrogen-reduction processes"]
     },
     {
@@ -44,7 +44,7 @@ window.SITE_DATA = {
       title: "Scrap-tolerant alloys and circular metallurgy",
       subtitle: "Designing structural metals for impurity-rich feedstocks",
       text: "Active-learning and thermodynamics-informed workflows are used to identify alloying strategies compatible with elevated residual impurity contents. Particular emphasis is placed on connecting scrap chemistry to phase stability, microstructure evolution and mechanical performance.",
-      methods: ["CALPHAD-informed modelling", "Microstructure segmentation", "Feature extraction", "Property optimization"],
+      methods: ["CALPHAD-informed modelling", "Microstructure segmentation", "Feature extraction", "Property optimization", "atomistic simulations"],
       systems: ["High-Cu-tolerant steels", "Recycled aluminium alloys", "Impurity-tolerant structural metals"]
     },
     {
@@ -52,7 +52,7 @@ window.SITE_DATA = {
       title: "Metallic glasses and complex alloys",
       subtitle: "Composition, relaxation and deformation mechanisms",
       text: "Integrated computational and experimental studies of glass formation, structural relaxation, crystallization, serrated flow and time-dependent deformation. The research links compositional complexity and free-volume sensitivity to deformation-zone connectivity and intermittent plasticity.",
-      methods: ["High-throughput design", "Molecular dynamics", "Calorimetry", "Nanoindentation", "High-energy X-ray diffraction"],
+      methods: ["High-throughput design", "Molecular dynamics", "Calorimetry", "Nanoindentation", "High-energy X-ray diffraction", "Transmission Electron microscopy"],
       systems: ["Cu–Zr-based metallic glasses", "Multicomponent BMGs", "High-entropy alloys"]
     },
     {
@@ -60,7 +60,7 @@ window.SITE_DATA = {
       title: "Hydrogen-based reduction",
       subtitle: "Interpretable process models for green steelmaking",
       text: "Physics-constrained constitutive learning is applied to identify rate-limiting timescales and regime transitions during hydrogen-based direct reduction. The broader goal is to derive process models that remain mechanistically meaningful while supporting efficient process optimization.",
-      methods: ["Constitutive learning", "Kinetic decomposition", "Causal modelling", "Thermodynamic constraints"],
+      methods: ["Constitutive/additive learning", "Kinetic decomposition", "Causal modeling", "Thermogravimetric characterization"],
       systems: ["Iron oxides", "Mixed oxides", "Green steel process conditions"]
     },
     {
@@ -68,7 +68,7 @@ window.SITE_DATA = {
       title: "Resource recovery and sustainable processing",
       subtitle: "Converting complex waste streams into functional materials",
       text: "Mechanical processing and selective recovery routes are developed for electronic and technological waste. Recovered metallic and polymeric fractions are connected to downstream applications including electrochemical CO₂ reduction, graphene synthesis and rare-earth recovery.",
-      methods: ["Cryomilling", "Mechanical separation", "Selective recovery", "Functional reuse"],
+      methods: ["Cryomilling", "Mechanical separation", "Selective recovery", "Electrochemistry", "Pulsed laser ablation"],
       systems: ["Waste printed circuit boards", "Spent magnets", "Polymeric e-waste fractions"]
     }
   ],
