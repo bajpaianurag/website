@@ -6,7 +6,7 @@ window.SITE_DATA = {
     institution: "Max Planck Institute for Sustainable Materials",
     location: "Düsseldorf, Germany",
     email: "a.bajpai@mpi-susmat.de",
-    phone: "+49 211 6792 839",
+    phone: "+49-211 6792 839",
     shortLink: "https://tinyurl.com/anuragbajpai",
     summary: "Materials scientist working at the interface of physical metallurgy, autonomous materials design and sustainable metallurgy. My research combines thermodynamic reasoning, process–microstructure–property relationships, experimental metallurgy and physics-informed machine learning to design bulk metallic systems and resource-efficient metallurgical processes.",
     mission: "To develop scientifically interpretable and experimentally grounded materials-design workflows that connect composition, processing, microstructure and performance."
