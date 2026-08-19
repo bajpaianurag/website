@@ -349,10 +349,10 @@ window.SITE_DATA = {
   },
 
   patent: {
-    year: 2024,
-    title: "Electric switch casing using waste printed circuit boards via compression molding",
+    year: 2026,
+    title: "Process for Fabricating an Electrical Wall Switch Casing using waste printed circuit boards",
     inventors: "Anurag Bajpai, Syed Mohammad Musthaq, Krishanu Biswas",
-    status: "Published patent application",
+    status: "Granted",
     application: "202411011268"
   },
 
@@ -384,6 +384,12 @@ window.SITE_DATA = {
   media: {
     linkedinProfile: "https://www.linkedin.com/in/anurag-bajpai-20a55421a/",
     ownPosts: [
+      {
+        source: "Anurag Bajpai",
+        label: "Patent",
+        title: "Process for Fabricating an Electrical Wall Switch Casing using discarded printed circuit boards",
+        url: "https://www.linkedin.com/posts/anurag-bajpai-20a55421a_ewaste-milling-polymer-activity-7495767402287304704-u4lI"
+      },
       {
         source: "Anurag Bajpai",
         label: "Research publication: Nature Communications",
