@@ -222,7 +222,7 @@
             <h2>${data.patent.title}</h2>
             <p>${data.patent.inventors}</p>
             <p>${data.patent.status}</p>
-            <small>Application No. ${data.patent.application}</small>
+            <small>Patent No. ${data.patent.number}</small>
           </article>
         </div>
       </section>
