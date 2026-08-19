@@ -353,7 +353,7 @@ window.SITE_DATA = {
     title: "Process for Fabricating an Electrical Wall Switch Casing using waste printed circuit boards",
     inventors: "Anurag Bajpai, Syed Mohammad Musthaq, Krishanu Biswas",
     status: "Granted",
-    application: "202411011268"
+    number: "IN-599486"
   },
 
   awards: {
